@@ -189,7 +189,7 @@ body {
   justify-content: center;
   width: 100%;
   height: 451.84px;
-  margin: auto;
+  margin-bottom: 108px;
 }
 .info__menu_items { 
   display: flex;
@@ -222,4 +222,54 @@ body {
 .info__menu_items img {
   height: 201px;
   width: 170px;
+}
+
+/* блок с иформацией сервиса */
+.service__menu {
+  height: 150px;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, #EFF2FA 50%);
+  /* background: linear-gradient(to right, green 50%, red 50%); */
+  opacity: 0.8;
+}
+.service__menu_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 549px;
+  width: 1150px;
+  margin: auto;
+  background: #FFFFFF;
+  border: 4px solid #F7F8FD;
+  border-radius: 26px;
+  /* background: url(/image/Untitled-2\ 8.png) 10% 30% no-repeat; */
+  background-size: auto;
+}
+.service__menu img {
+  width: 53%; 
+}
+.service__menu_text {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.service__menu_text h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 132.4%;
+  color: #160647;
+  width: 360.7px;
+}
+.service__menu_text p {
+  font-weight: normal;
+  font-style: normal;
+  color: #4E5983;
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 166.5%;
+  width: 348px;
 }
