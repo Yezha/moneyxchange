@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Rubik, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -46,16 +46,16 @@ body {
 }
 
 .blog__menu {
-  background: url(/image/Untitled-2\ 4.png) 5% 35% no-repeat, 
-                url(/image/Untitled-2\ 5.png) 90% 40% no-repeat, 
-                url(/image/Untitled-2\ 9.png) 10% 90% no-repeat, 
-                url(/image/Untitled-2\ 8.png) 10% 30% no-repeat, 
-                url(/image/Untitled-2\ 6.png) 87% 45% no-repeat, 
-                url(/image/Rectangle\ 126.png) 50% 85% no-repeat, 
-                url(/image/Rectangle\ 127.png) 50% 87% no-repeat, 
-                url(/image/Untitled-2\ 11.png) 0% 90% no-repeat, 
-                linear-gradient(157.1deg, #562EC2 29.59%, #A07EFE 73.59%);
-    background-size: auto, auto, auto, auto, auto, auto, auto, auto, auto, cover;
+  background: url(/moneyxchange/image/Untitled-2\ 4.png) 5% 35% no-repeat, 
+              url(/moneyxchange/image/Untitled-2\ 5.png) 90% 40% no-repeat, 
+              url(/moneyxchange/image/Untitled-2\ 9.png) 10% 90% no-repeat, 
+              url(/moneyxchange/image/Untitled-2\ 8.png) 10% 30% no-repeat, 
+              url(/moneyxchange/image/Untitled-2\ 6.png) 87% 45% no-repeat, 
+              url(/moneyxchange/image/Rectangle\ 126.png) 50% 85% no-repeat, 
+              url(/moneyxchange/image/Rectangle\ 127.png) 50% 87% no-repeat, 
+              url(/moneyxchange/image/Untitled-2\ 11.png) 0% 90% no-repeat, 
+              linear-gradient(157.1deg, #562EC2 29.59%, #A07EFE 73.59%);
+  background-size: auto, auto, auto, auto, auto, auto, auto, auto, auto, cover;
   height: 754.59px;
 }
 .blog__menu {
@@ -226,12 +226,12 @@ body {
 
 /* блок с иформацией сервиса */
 .service__menu {
-  height: 150px;
-  opacity: 0.8;
+  display: flex;
+  justify-content: center;
   width: 100%;
-  height: 100%;
+  height: 650px;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, #EFF2FA 50%);
-  /* background: linear-gradient(to right, green 50%, red 50%); */
+  margin-bottom: 142px;
   opacity: 0.8;
 }
 .service__menu_main {
@@ -241,11 +241,11 @@ body {
   justify-content: flex-end;
   height: 549px;
   width: 1150px;
-  margin: auto;
   background: #FFFFFF;
   border: 4px solid #F7F8FD;
   border-radius: 26px;
-  /* background: url(/image/Untitled-2\ 8.png) 10% 30% no-repeat; */
+  box-shadow: 0em 1em 15px rgba(122,122,122,0.5);
+  /* background: url(/moneyxchange/image/Untitled-2\ 8.png) 90% 30% no-repeat; */
   background-size: auto;
 }
 .service__menu img {
@@ -272,4 +272,158 @@ body {
   font-size: 16px;
   line-height: 166.5%;
   width: 348px;
+}
+
+/* Блок с валютой */
+.currency__menu {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  height: 400px;
+}
+.currency__menu h2 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 111.9%;
+  margin-bottom: 54px;
+  text-align: center;
+  color: #160647;
+}
+.currency__menu_item {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 74%;
+} 
+.currency__menu_items {
+  display: flex;
+  align-items: center;
+  width: 229.71px;
+}
+.currency__menu_text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+.currency__menu_text span:nth-child(1) {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #A4AABF;
+}
+.currency__menu_text span:nth-child(2) {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 155.5%;
+  color: #160647;
+}
+
+/* Блок с отзывов */
+.client__menu {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 650px;
+  width: 81%;
+}
+.client__menu h2 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 132.4%;
+  color: #160647;
+  margin-bottom: 115px;
+}
+.client__menu_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.client__menu_explain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 486px;
+}
+.client__menu_explain div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+.client__menu_explain p {
+  font-size: 16px;
+  line-height: 166%;
+  color: #4E5983;
+  opacity: 0.7;
+}
+.client__menu_explain h3 {
+  font-size: 20px;
+  line-height: 155.5%;
+  color: #160647;
+}
+.client__menu_explain span {
+  font-size: 14px;
+  line-height: 17px;
+  color: #838BA8;
+}
+
+/* Блок с обменом валют */
+.brief__menu {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+.brief__menu_main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: linear-gradient(163.51deg, #562EC2 29.59%, #A07EFE 73.59%),
+              linear-gradient(165.24deg, #562EC2 29.59%, #A07EFE 73.59%);
+  border-radius: 17px;
+  width: 1150px;
+  height: 446px;
+}
+.brief__menu_main img {
+  height: 670px;
+  width: 615px;
+}
+.brief__menu_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 67%;
+}
+.brief__menu_text h3 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 132.4%;
+  color: #FFFFFF;
+}
+.brief__menu_text span {
+  font-size: 18px;
+  line-height: 166.5%;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin-bottom: 49px;
+}
+.brief__menu_text input {
+  width: 200px;
+  height: 69px;
+  font-weight: 500;
+  font-size: 15.9618px;
+  line-height: 19px;
+  background: #FFFFFF;
+  opacity: 0.8;
+  border-radius: 10.2611px;
+  text-align: center;
+  color: #9F7DFD;
 }
