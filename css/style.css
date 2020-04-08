@@ -327,8 +327,8 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
-  height: 650px;
   width: 81%;
+  margin-bottom: 144px;
 }
 .client__menu h2 {
   font-family: sans-serif;
@@ -380,7 +380,8 @@ body {
 .brief__menu {
   display: flex;
   justify-content: center;
-  height: 600px;
+  height: 450px;
+  margin-bottom: 132px;
 }
 .brief__menu_main {
   display: flex;
@@ -426,4 +427,52 @@ body {
   border-radius: 10.2611px;
   text-align: center;
   color: #9F7DFD;
+}
+
+/* Меню-контакты */
+.contact__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 200px;
+  width: 1150px;
+}
+.contact__menu_image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  align-items: baseline;
+  width: 22%;
+}
+.contact__menu_image div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+  height: 106px;;
+}
+.contact__menu_image p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #838BA8;
+}
+
+.contact__menu_nav {
+  display: flex;
+  justify-content: space-around;
+  width: 544px;
+}
+.contact__menu_nav a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4E5983;
+}
+
+.contact__menu_network {
+  display: flex;
+  justify-content: space-between;
+  width: 136px;
 }
